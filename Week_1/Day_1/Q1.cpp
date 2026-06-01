@@ -7,8 +7,6 @@ int main(){
     cin >> n ; 
      for ( i = 1 ; i <=n ; i++){ 
         sum = sum + i ;
-    for ( i = 1 ; i <=n ; i++){ 
-    sum = sum + i ;
      }
      cout << (" sum of first n natural number : ") << sum << endl;
      return 0;
