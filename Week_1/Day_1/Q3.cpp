@@ -4,10 +4,10 @@ using namespace std;
 int main (){
 int i = 1 , n ;
 int fact = 1 ;
-cout << ("enter the number : ");// giving output
-cin >>  n; // taking input
+cout << ("enter the number : ");
+cin >>  n; 
 for ( i= 1 ; i <= n ; i++ ) {
-    fact *= i  ; // using condition 
+    fact *= i  ; 
 }  
  cout << n << " ! = " << fact << endl;
  return 0;
