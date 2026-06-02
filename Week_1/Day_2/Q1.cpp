@@ -9,8 +9,8 @@ int main() {
     cin >> n;
 
     while(n > 0) {
-        sum = sum + (n % 10); // last digit add
-        n = n / 10;           // remove last digit
+        sum = sum + (n % 10); 
+        n = n / 10;           
     }
 
     cout << "Sum of digits = " << sum;
