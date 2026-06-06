@@ -1,9 +1,9 @@
 //Write a program to Print prime numbers in a range
 #include <iostream>
-#include "Q2.h"
 using namespace std;
 int main() {
     int a, b;
+    cout << ("enter the range: ") ;
     cin >> a >> b;
 
     for (int n = a; n <= b; n++) {
