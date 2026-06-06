@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     int a, b, gcd;
-
+    cout << ("enter the two number " ) ;
     cin >> a >> b;
 
     for (int i = 1; i <= a && i <= b; i++) {
